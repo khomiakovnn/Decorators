@@ -33,7 +33,7 @@ class FlatIterator:
         return self.flat_list[self.item]
 
 
-@loger_maker("log.txt")  # Логгируем функцию
+@loger_maker("log2.txt")  # Логгируем функцию
 def iterator_test():
     """Iterator test function"""
 
